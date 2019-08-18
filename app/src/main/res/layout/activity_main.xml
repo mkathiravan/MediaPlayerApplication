@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="30dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/normal_video_view"
+        android:gravity="center"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sample Video" />
+
+    <Button
+        android:id="@+id/mx_video_view"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:background="@drawable/button"
+        android:textColor="#ffffff"
+        android:text="Youtbe Player"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/youtube_view"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="@drawable/button"
+        android:layout_marginTop="10dp"
+        android:text="Youtube Video"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/audio_view"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="@drawable/button"
+        android:layout_marginTop="10dp"
+        android:text="Sample Audio"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/facebook_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/button"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:text="Facbook Video"/>
+
+    <Button
+        android:id="@+id/mkplayer_video"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button"
+        android:textColor="#ffffff"
+        android:text="Mk Player Video"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/youtube_video_play"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/button"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:text="Youtube Video Play"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/exo_video_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Exo Player"/>
+
+    <Button
+        android:id="@+id/mx_video_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Mx Video Player"/>
+
+
+</LinearLayout>
+
+</ScrollView>
